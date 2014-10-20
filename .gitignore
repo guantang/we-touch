@@ -1,0 +1,14 @@
+.svn
+target
+/core/target
+logs
+/core/logs
+*.iml
+.idea
+.settings
+.classpath
+.project
+*.jar
+*.bak
+/doc/design/db/*.cdm
+/doc/design/demo

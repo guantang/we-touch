@@ -1,0 +1,3 @@
+[submodule "web/src/main/webapp/static"]
+	path = web/src/main/webapp/static
+	url = E:/mailtech/work.icm/web_resources

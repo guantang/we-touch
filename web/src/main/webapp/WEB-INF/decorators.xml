@@ -1,0 +1,18 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>**ajax=true</pattern>
+        <pattern>/login</pattern>
+        <pattern>/login?error=true</pattern>
+    </excludes>
+    <decorator name="nest" page="nest.jsp">
+        <pattern>**/_nest/*</pattern>
+    </decorator>
+    <decorator name="icm" page="icm.jsp">
+        <pattern>/sa/*</pattern>
+        <pattern>/oa/*</pattern>
+        <pattern>/*</pattern>
+    </decorator>
+    <decorator name="default" page="icm.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>

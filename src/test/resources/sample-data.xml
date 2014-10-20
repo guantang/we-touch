@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <!-- customer -->
+    <table name="icm_customer">
+        <column>customer_id</column>
+        <column>domain</column>
+        <column>customer_name</column>
+        <row>
+            <value description="customer_id">-1</value>
+            <value description="domain">a00</value>
+            <value description="customer_name">b00</value>
+        </row>
+        <row>
+            <value description="customer_id">-2</value>
+            <value description="domain">a02</value>
+            <value description="customer_name">b02</value>
+        </row>
+        <row>
+            <value description="customer_id">-3</value>
+            <value description="domain">a03</value>
+            <value description="customer_name">b03</value>
+        </row>
+        <row>
+            <value description="customer_id">-4</value>
+            <value description="domain">a04</value>
+            <value description="customer_name">b04</value>
+        </row>
+        <row>
+            <value description="customer_id">-5</value>
+            <value description="domain">a05</value>
+            <value description="customer_name">b05</value>
+        </row>
+        <row>
+            <value description="customer_id">-6</value>
+            <value description="domain">a06</value>
+            <value description="customer_name">b06</value>
+        </row>
+        <row>
+            <value description="customer_id">-7</value>
+            <value description="domain">a07</value>
+            <value description="customer_name">b07</value>
+        </row>
+        <row>
+            <value description="customer_id">-8</value>
+            <value description="domain">a08</value>
+            <value description="customer_name">b08</value>
+        </row>
+        <row>
+            <value description="customer_id">-9</value>
+            <value description="domain">a09</value>
+            <value description="customer_name">b09</value>
+        </row>
+        <row>
+            <value description="customer_id">-10</value>
+            <value description="domain">a10</value>
+            <value description="customer_name">b10</value>
+        </row>
+        <row>
+            <value description="customer_id">-11</value>
+            <value description="domain">a11</value>
+            <value description="customer_name">b11</value>
+        </row>
+        <row>
+            <value description="customer_id">-12</value>
+            <value description="domain">a12</value>
+            <value description="customer_name">b12</value>
+        </row>
+    </table>
+
+</dataset>
