@@ -124,11 +124,6 @@
             <version>1.0.x</version>
         </dependency>
         <dependency>
-            <groupId>apiclient</groupId>
-            <artifactId>apiclient</artifactId>
-            <version>advance</version>
-        </dependency>
-        <dependency>
             <groupId>cn.mailtech</groupId>
             <artifactId>javalib2</artifactId>
             <version>2013V1.5332.5303</version>
@@ -138,7 +133,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>7.0.2</version>
+            <version>13.0</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

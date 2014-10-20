@@ -14,7 +14,6 @@
     <context:component-scan base-package="cn.mailtech.ssh.common"/>
     <context:component-scan base-package="cn.mailtech.cmcu.icmsso.repository"/>
     <context:component-scan base-package="cn.mailtech.cmcu.icmsso.service"/>
-    <context:component-scan base-package="cn.mailtech.cmcu.icmsso.service_web.impl"/>
 
     <bean id="pageConf" class="cn.mailtech.cmcu.icmsso.model.PageConf">
         <property name="pageSize" value="5"/>
@@ -23,7 +22,6 @@
 
     <!-- Add new Managers here -->
     <bean id="ssoService" class="cn.mailtech.cmcu.icmsso.service.SsoService">
-        <property name="apiServerPort" value="6195"/>
         <property name="baseDestUrl" value="http://%s/webadmin/~%s/~/usr/index_usr.jsp"/>
         <property name="namespace" value="http://coremail.cn/apiws"/>
     </bean>

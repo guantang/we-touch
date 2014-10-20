@@ -10,7 +10,7 @@
         </layout>
     </appender>
     <appender name="RollingFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
-        <param name="File" value="../logs/icmsso.log"/>
+        <param name="File" value="../logs/wetouch.log"/>
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS}: %p [%t] %c{1}.%M(%L) | %m%n"/>
         </layout>

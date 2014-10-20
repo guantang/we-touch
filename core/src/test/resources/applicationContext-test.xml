@@ -16,11 +16,6 @@
         <property name="pageSize" value="10"/>
     </bean>
 
-    <bean id="apiClientFactory" class="cn.mailtech.ssh.common.cm.api.CoremailAPIClientFactory">
-        <!-- Coremail邮件系统rmiserver的IP、端口 -->
-        <property name="serverIp" value="192.168.200.127"/>
-        <property name="serverPort" value="6195"/>
-    </bean>
     <bean id="textMailEngine" class="cn.mailtech.ssh.common.service.util.TextMailEngine">
         <property name="mailSender" ref="mailSender"/>
         <property name="velocityEngine" ref="velocityEngine"/>

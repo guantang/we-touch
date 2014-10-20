@@ -37,8 +37,6 @@ public class AdminController  extends MyBaseController {
     @Autowired
     private CustomerRepository customerRepository;
     @Autowired
-    private SsoService ssoService;
-    @Autowired
     private PageConf pageConf;
 
 
